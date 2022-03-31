@@ -58,7 +58,7 @@ for (let photo of this.photos) {
 }
 ```
 
-After, call this new method in `tab2.page.ts` so that when the user first navigates to Tab 2 (the Photo Gallery), all photos are loaded and displayed on the screen.
+Finally, add this new method to the `Tab2Page` class in `tab2.page.ts` so that when the user first navigates to Tab 2 (the Photo Gallery), all photos are loaded and displayed on the screen.
 
 ```tsx
 async ngOnInit() {
